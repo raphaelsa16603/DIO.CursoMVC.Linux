@@ -24,7 +24,7 @@ dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
 
 ## Dica: https://docs.microsoft.com/pt-br/aspnet/core/fundamentals/tools/dotnet-aspnet-codegenerator?view=aspnetcore-5.0
 ## Criando o scaffolder controller da base Categoria...
-dotnet aspnet-codegenerator controller -name CategoriasController --model Categoria --dataContext Context --force --useDefaultLayout 
+dotnet aspnet-codegenerator controller -name CategoriasController --model Categoria --dataContext Context --relativeFolderPath Controllers --force --useDefaultLayout 
 
 ## Criando o scaffolder controller... ", we need to use the command below:"
 ## Não funcionou --- dotnet aspnet-codegenerator controller -name CategoriasController --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries --readWriteActions

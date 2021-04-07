@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CursoMVC.Models;
 
-namespace CursoMVC
+namespace CursoMVC.Controllers
 {
     public class CategoriasController : Controller
     {
