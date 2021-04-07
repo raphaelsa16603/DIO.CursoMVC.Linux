@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using CursoMVC.Models;
 
 namespace CursoMVC.Models
 {
@@ -11,5 +12,7 @@ namespace CursoMVC.Models
         }
 
         public DbSet<Categoria> Categorias { get; set; }
+
+        public DbSet<CursoMVC.Models.Produto> Produto { get; set; }
     }
 }
